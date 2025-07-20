@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+c=map(int,input("Enter a set of numbers").split())
+d=list(c)
+print(d)
+plt.plot(d)
+plt.show()
